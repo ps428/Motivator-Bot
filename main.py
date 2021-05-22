@@ -10,9 +10,13 @@ TOKEN = os.getenv('TOKEN')
 client = discord.Client()
 
 sad_words = [
-
-
-    'bad', 'blue', 'brokenhearted', 'cast down', 'crestfallen', 'dejected', 'depressed', 'despondent', 'disconsolate', 'doleful', 'down', 'down in the mouth', 'downcast', 'downhearted', 'droopy', 'forlorn', 'gloomy', 'glum', 'hangdog', 'heartbroken', 'heartsick', 'heartsore', 'heavyhearted', 'inconsolable', 'joyless', 'low', 'low-spirited', 'melancholic', 'melancholy', 'miserable', 'mournful', 'sad', 'saddened', 'sorrowful', 'sorry', 'woebegone', 'woeful', 'wretched', 'exhausted'
+    'bad', 'blue', 'brokenhearted', 'cast down', 'crestfallen', 'dejected',
+    'depressed', 'despondent', 'disconsolate', 'doleful', 'down',
+    'down in the mouth', 'downcast', 'downhearted', 'droopy', 'forlorn',
+    'gloomy', 'glum', 'hangdog', 'heartbroken', 'heartsick', 'heartsore',
+    'heavyhearted', 'inconsolable', 'joyless', 'low', 'low-spirited',
+    'melancholic', 'melancholy', 'miserable', 'mournful', 'sad', 'saddened',
+    'sorrowful', 'sorry', 'woebegone', 'woeful', 'wretched', 'exhausted'
 ]
 
 starter_encouragements = [
